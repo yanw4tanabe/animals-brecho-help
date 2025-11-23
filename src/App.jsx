@@ -23,15 +23,16 @@ import {
 import fotoValente from './assets/figures/dogs/valente.jpg';
 import fotoLuna from './assets/figures/cats/luna.jpg';
 import fotoPipoca from './assets/figures/dogs/pipoca.jpg';
-import fotoThor from './assets/figures/dogs/thor.png';
+import fotoThor from './assets/figures/dogs/thor.jpg';
 import fotoMia from './assets/figures/cats/mia.jpg';
-import fotoBarao from './assets/figures/dogs/barao.jpg';
+import fotoBarao from './assets/figures/dogs/barao.png';
 import fotoAmora from './assets/figures/dogs/amora.jpg';
 import fotoFrajola from './assets/figures/cats/frajola.jpg';
 import fotoBelinha from './assets/figures/dogs/belinha.jpg';
 import fotoSimba from './assets/figures/cats/simba.jpg';
 import fotoPudim from './assets/figures/dogs/pudim.jpg';
 import fotoMimi from './assets/figures/cats/mimi.jpg';
+import fotoBazar from './assets/figures/bazar/fachada1.jpeg';
 
 // --- MOCK DATA ---
 
@@ -801,7 +802,7 @@ const App = () => {
                 <div className="absolute -top-4 -left-4 w-20 h-20 bg-yellow-400 rounded-full opacity-50 blur-xl"></div>
                 <img 
                   // src="https://images.unsplash.com/photo-1441986300917-64674bd600d8?q=80&w=800&auto=format&fit=crop"
-                  src="assets/figures/bazar/fachada1.jpeg"  
+                  src={fotoBazar}  
                   alt="Bazar Beneficente" 
                   className="rounded-3xl shadow-2xl relative z-10"
                 />
