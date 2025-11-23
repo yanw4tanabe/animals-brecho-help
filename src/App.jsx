@@ -27,7 +27,8 @@ const animalsApadrinhamento = [
   {
     id: 1,
     nome: "Valente",
-    foto: "https://images.unsplash.com/photo-1518020382113-a7e8fc38eac9?q=80&w=800&auto=format&fit=crop",
+    // foto: "https://images.unsplash.com/photo-1518020382113-a7e8fc38eac9?q=80&w=800&auto=format&fit=crop",
+    foto: "assets/figures/dogs/valente.jpg",
     necessidade: "Cirurgia Ortopédica",
     descricao: "Valente foi resgatado após um atropelamento. Ele precisa de uma cirurgia complexa na pata traseira para voltar a andar sem dor.",
     custoTotal: 2500,
@@ -39,7 +40,8 @@ const animalsApadrinhamento = [
   {
     id: 2,
     nome: "Luna",
-    foto: "https://images.unsplash.com/photo-1514888286974-6c03e2ca1dba?q=80&w=800&auto=format&fit=crop",
+    // foto: "https://images.unsplash.com/photo-1514888286974-6c03e2ca1dba?q=80&w=800&auto=format&fit=crop",
+    foto: "assets/figures/cats/luna.jpg",
     necessidade: "Tratamento Renal",
     descricao: "A doce Luna sofre de insuficiência renal crônica. Precisamos garantir sua ração especial e fluidoterapia mensal.",
     custoTotal: 400,
@@ -51,7 +53,8 @@ const animalsApadrinhamento = [
   {
     id: 3,
     nome: "Pipoca",
-    foto: "https://images.unsplash.com/photo-1587300003388-59208cc962cb?q=80&w=800&auto=format&fit=crop",
+    // foto: "https://images.unsplash.com/photo-1587300003388-59208cc962cb?q=80&w=800&auto=format&fit=crop",
+    foto: "assets/figures/dogs/pipoca.jpg",
     necessidade: "Alimentação Especial",
     descricao: "Resgatado com desnutrição severa, Pipoca precisa de suplementos vitamínicos e ração gastrointestinal.",
     custoTotal: 300,
@@ -63,7 +66,8 @@ const animalsApadrinhamento = [
   {
     id: 4,
     nome: "Thor",
-    foto: "https://images.unsplash.com/photo-1583511655857-d19b40a7a54e?q=80&w=800&auto=format&fit=crop",
+    // foto: "https://images.unsplash.com/photo-1583511655857-d19b40a7a54e?q=80&w=800&auto=format&fit=crop",
+    foto: "assets/figures/dogs/thor.png",
     necessidade: "Quimioterapia",
     descricao: "Thor é um guerreiro lutando contra um TVT. Faltam 4 sessões de quimioterapia para sua cura completa.",
     custoTotal: 800,
@@ -75,7 +79,8 @@ const animalsApadrinhamento = [
   {
     id: 5,
     nome: "Mia",
-    foto: "https://images.unsplash.com/photo-1573865526739-10659fec78a5?q=80&w=800&auto=format&fit=crop",
+    // foto: "https://images.unsplash.com/photo-1573865526739-10659fec78a5?q=80&w=800&auto=format&fit=crop",
+    foto: "assets/figures/cats/mia.jpg",
     necessidade: "Castração e Vacinas",
     descricao: "Mia e seus 3 filhotes precisam ser vacinados e ela precisa ser castrada para encontrar um lar.",
     custoTotal: 600,
@@ -87,7 +92,8 @@ const animalsApadrinhamento = [
   {
     id: 6,
     nome: "Barão",
-    foto: "https://images.unsplash.com/photo-1543466835-00a7907e9de1?q=80&w=800&auto=format&fit=crop",
+    //foto: "https://images.unsplash.com/photo-1543466835-00a7907e9de1?q=80&w=800&auto=format&fit=crop",
+    foto: "assets/figures/dogs/barao.jpg",
     necessidade: "Hotelzinho / Lar Temporário",
     descricao: "O lar temporário do Barão venceu. Precisamos pagar um hotelzinho até ele ser adotado.",
     custoTotal: 450,
@@ -103,7 +109,8 @@ const animalsAdocao = [
     id: 101,
     nome: "Amora",
     especie: "cachorro",
-    foto: "https://images.unsplash.com/photo-1596492784531-6e6eb5ea92b5?q=80&w=800&auto=format&fit=crop",
+    // foto: "https://images.unsplash.com/photo-1596492784531-6e6eb5ea92b5?q=80&w=800&auto=format&fit=crop",
+    foto: "assets/figures/dogs/amora.jpg",
     idade: "2 anos",
     porte: "Médio",
     sexo: "Fêmea",
@@ -116,7 +123,8 @@ const animalsAdocao = [
     id: 102,
     nome: "Frajola",
     especie: "gato",
-    foto: "https://images.unsplash.com/photo-1513360371669-4adf3dd7dff8?q=80&w=800&auto=format&fit=crop",
+    // foto: "https://images.unsplash.com/photo-1513360371669-4adf3dd7dff8?q=80&w=800&auto=format&fit=crop",
+    foto: "assets/figures/cats/frajola.jpg",
     idade: "6 meses",
     porte: "Pequeno",
     sexo: "Macho",
@@ -129,7 +137,8 @@ const animalsAdocao = [
     id: 103,
     nome: "Belinha",
     especie: "cachorro",
-    foto: "https://images.unsplash.com/photo-1537151625747-768eb6cf92b2?q=80&w=800&auto=format&fit=crop",
+    // foto: "https://images.unsplash.com/photo-1537151625747-768eb6cf92b2?q=80&w=800&auto=format&fit=crop",
+    foto: "assets/figures/dogs/belinha.jpg",
     idade: "8 anos",
     porte: "Pequeno",
     sexo: "Fêmea",
@@ -142,7 +151,8 @@ const animalsAdocao = [
     id: 104,
     nome: "Simba",
     especie: "gato",
-    foto: "https://images.unsplash.com/photo-1574158622682-e40e69881006?q=80&w=800&auto=format&fit=crop",
+    // foto: "https://images.unsplash.com/photo-1574158622682-e40e69881006?q=80&w=800&auto=format&fit=crop",
+    foto: "assets/figures/cats/simba.jpg",
     idade: "1 ano",
     porte: "Médio",
     sexo: "Macho",
@@ -155,7 +165,8 @@ const animalsAdocao = [
     id: 105,
     nome: "Pudim",
     especie: "cachorro",
-    foto: "https://images.unsplash.com/photo-1530281700549-e82e7bf110d6?q=80&w=800&auto=format&fit=crop",
+    // foto: "https://images.unsplash.com/photo-1530281700549-e82e7bf110d6?q=80&w=800&auto=format&fit=crop",
+    foto: "assets/figures/dogs/pudim.jpg",
     idade: "4 anos",
     porte: "Grande",
     sexo: "Macho",
@@ -168,7 +179,8 @@ const animalsAdocao = [
     id: 106,
     nome: "Mimi",
     especie: "gato",
-    foto: "https://images.unsplash.com/photo-1529778873920-4da4926a7071?q=80&w=800&auto=format&fit=crop",
+    // foto: "https://images.unsplash.com/photo-1529778873920-4da4926a7071?q=80&w=800&auto=format&fit=crop",
+    foto: "assets/figures/cats/mimi.jpg",
     idade: "3 anos",
     porte: "Pequeno",
     sexo: "Fêmea",
@@ -776,7 +788,8 @@ const App = () => {
               <div className="relative">
                 <div className="absolute -top-4 -left-4 w-20 h-20 bg-yellow-400 rounded-full opacity-50 blur-xl"></div>
                 <img 
-                  src="https://images.unsplash.com/photo-1441986300917-64674bd600d8?q=80&w=800&auto=format&fit=crop" 
+                  // src="https://images.unsplash.com/photo-1441986300917-64674bd600d8?q=80&w=800&auto=format&fit=crop"
+                  src="assets/figures/bazar/fachada1.jpeg"  
                   alt="Bazar Beneficente" 
                   className="rounded-3xl shadow-2xl relative z-10"
                 />
@@ -805,7 +818,9 @@ const App = () => {
                   </li>
                 ))}
               </ul>
-              <Button variant="primary">
+              <Button variant="primary"
+                      onClick={() => window.location.href = 'https://maps.app.goo.gl/2yXL8adMhynGCzHY6'}
+              >
                 Visitar o Bazar (Ver Endereço)
               </Button>
             </div>
@@ -842,11 +857,11 @@ const App = () => {
                 <span className="text-xl font-bold">Animals<span className="text-teal-400">Brechó</span></span>
               </div>
               <p className="text-sm leading-relaxed mb-6 text-gray-400">
-                Proteção animal com transparência e amor. Desde 2018 resgatando, curando e encontrando lares.
+                Proteção animal com transparência e amor. Desde 2015 resgatando, curando e encontrando lares.
               </p>
               <div className="flex gap-4">
-                <a href="#" className="w-10 h-10 rounded-full bg-gray-800 flex items-center justify-center hover:bg-orange-500 transition-colors text-white"><Instagram size={18} /></a>
-                <a href="#" className="w-10 h-10 rounded-full bg-gray-800 flex items-center justify-center hover:bg-blue-600 transition-colors text-white"><Facebook size={18} /></a>
+                <a href="https://www.instagram.com/animals.brecho/" className="w-10 h-10 rounded-full bg-gray-800 flex items-center justify-center hover:bg-orange-500 transition-colors text-white"><Instagram size={18} /></a>
+                <a href="https://www.facebook.com/elvira.maria.9465" className="w-10 h-10 rounded-full bg-gray-800 flex items-center justify-center hover:bg-blue-600 transition-colors text-white"><Facebook size={18} /></a>
               </div>
             </div>
 
@@ -855,15 +870,15 @@ const App = () => {
               <ul className="space-y-4 text-sm">
                 <li className="flex items-start gap-3">
                   <MapPin className="text-orange-500 flex-shrink-0" size={18} />
-                  <span>Rua dos Resgates, 123<br/>Centro, São Paulo - SP</span>
+                  <span>Quadra 08, Bloco 11, Loja 08<br/>Sobradinho, Distrito Federal - DF</span>
                 </li>
                 <li className="flex items-center gap-3">
                   <Phone className="text-orange-500" size={18} />
-                  <span>(11) 99999-8888</span>
+                  <span>(61) 98270-9027</span>
                 </li>
                 <li className="flex items-center gap-3">
                   <Mail className="text-orange-500" size={18} />
-                  <span>ajuda@animalsbrecho.org</span>
+                  <span>fiodeprata59@gmail.com</span>
                 </li>
               </ul>
             </div>
@@ -889,7 +904,7 @@ const App = () => {
           </div>
           
           <div className="border-t border-gray-800 pt-8 flex flex-col md:flex-row justify-between items-center text-xs text-gray-500">
-            <p>© 2024 Animals Brechó. Todos os direitos reservados.</p>
+            <p>© 2025 Animals Brechó. Todos os direitos reservados.</p>
             <p className="flex items-center gap-1 mt-2 md:mt-0">Feito com <Heart size={10} className="text-red-500" fill="currentColor" /> para os animais</p>
           </div>
         </div>
