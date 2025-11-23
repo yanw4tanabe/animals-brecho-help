@@ -20,6 +20,18 @@ import {
   MapPin,
   Mail
 } from 'lucide-react';
+import fotoValente from './assets/figures/dogs/valente.jpg';
+import fotoLuna from './assets/figures/cats/luna.jpg';
+import fotoPipoca from './assets/figures/dogs/pipoca.jpg';
+import fotoThor from './assets/figures/dogs/thor.png';
+import fotoMia from './assets/figures/cats/mia.jpg';
+import fotoBarao from './assets/figures/dogs/barao.jpg';
+import fotoAmora from './assets/figures/dogs/amora.jpg';
+import fotoFrajola from './assets/figures/cats/frajola.jpg';
+import fotoBelinha from './assets/figures/dogs/belinha.jpg';
+import fotoSimba from './assets/figures/cats/simba.jpg';
+import fotoPudim from './assets/figures/dogs/pudim.jpg';
+import fotoMimi from './assets/figures/cats/mimi.jpg';
 
 // --- MOCK DATA ---
 
@@ -28,7 +40,7 @@ const animalsApadrinhamento = [
     id: 1,
     nome: "Valente",
     // foto: "https://images.unsplash.com/photo-1518020382113-a7e8fc38eac9?q=80&w=800&auto=format&fit=crop",
-    foto: "assets/figures/dogs/valente.jpg",
+    foto: fotoValente,
     necessidade: "Cirurgia Ortopédica",
     descricao: "Valente foi resgatado após um atropelamento. Ele precisa de uma cirurgia complexa na pata traseira para voltar a andar sem dor.",
     custoTotal: 2500,
@@ -41,7 +53,7 @@ const animalsApadrinhamento = [
     id: 2,
     nome: "Luna",
     // foto: "https://images.unsplash.com/photo-1514888286974-6c03e2ca1dba?q=80&w=800&auto=format&fit=crop",
-    foto: "assets/figures/cats/luna.jpg",
+    foto: fotoLuna,
     necessidade: "Tratamento Renal",
     descricao: "A doce Luna sofre de insuficiência renal crônica. Precisamos garantir sua ração especial e fluidoterapia mensal.",
     custoTotal: 400,
@@ -54,7 +66,7 @@ const animalsApadrinhamento = [
     id: 3,
     nome: "Pipoca",
     // foto: "https://images.unsplash.com/photo-1587300003388-59208cc962cb?q=80&w=800&auto=format&fit=crop",
-    foto: "assets/figures/dogs/pipoca.jpg",
+    foto: fotoPipoca,
     necessidade: "Alimentação Especial",
     descricao: "Resgatado com desnutrição severa, Pipoca precisa de suplementos vitamínicos e ração gastrointestinal.",
     custoTotal: 300,
@@ -67,7 +79,7 @@ const animalsApadrinhamento = [
     id: 4,
     nome: "Thor",
     // foto: "https://images.unsplash.com/photo-1583511655857-d19b40a7a54e?q=80&w=800&auto=format&fit=crop",
-    foto: "assets/figures/dogs/thor.png",
+    foto: fotoThor,
     necessidade: "Quimioterapia",
     descricao: "Thor é um guerreiro lutando contra um TVT. Faltam 4 sessões de quimioterapia para sua cura completa.",
     custoTotal: 800,
@@ -80,7 +92,7 @@ const animalsApadrinhamento = [
     id: 5,
     nome: "Mia",
     // foto: "https://images.unsplash.com/photo-1573865526739-10659fec78a5?q=80&w=800&auto=format&fit=crop",
-    foto: "assets/figures/cats/mia.jpg",
+    foto: fotoMia,
     necessidade: "Castração e Vacinas",
     descricao: "Mia e seus 3 filhotes precisam ser vacinados e ela precisa ser castrada para encontrar um lar.",
     custoTotal: 600,
@@ -93,7 +105,7 @@ const animalsApadrinhamento = [
     id: 6,
     nome: "Barão",
     //foto: "https://images.unsplash.com/photo-1543466835-00a7907e9de1?q=80&w=800&auto=format&fit=crop",
-    foto: "assets/figures/dogs/barao.jpg",
+    foto: fotoBarao,
     necessidade: "Hotelzinho / Lar Temporário",
     descricao: "O lar temporário do Barão venceu. Precisamos pagar um hotelzinho até ele ser adotado.",
     custoTotal: 450,
@@ -110,7 +122,7 @@ const animalsAdocao = [
     nome: "Amora",
     especie: "cachorro",
     // foto: "https://images.unsplash.com/photo-1596492784531-6e6eb5ea92b5?q=80&w=800&auto=format&fit=crop",
-    foto: "assets/figures/dogs/amora.jpg",
+    foto: fotoAmora,
     idade: "2 anos",
     porte: "Médio",
     sexo: "Fêmea",
@@ -124,7 +136,7 @@ const animalsAdocao = [
     nome: "Frajola",
     especie: "gato",
     // foto: "https://images.unsplash.com/photo-1513360371669-4adf3dd7dff8?q=80&w=800&auto=format&fit=crop",
-    foto: "assets/figures/cats/frajola.jpg",
+    foto: fotoFrajola,
     idade: "6 meses",
     porte: "Pequeno",
     sexo: "Macho",
@@ -138,7 +150,7 @@ const animalsAdocao = [
     nome: "Belinha",
     especie: "cachorro",
     // foto: "https://images.unsplash.com/photo-1537151625747-768eb6cf92b2?q=80&w=800&auto=format&fit=crop",
-    foto: "assets/figures/dogs/belinha.jpg",
+    foto: fotoBelinha,
     idade: "8 anos",
     porte: "Pequeno",
     sexo: "Fêmea",
@@ -152,7 +164,7 @@ const animalsAdocao = [
     nome: "Simba",
     especie: "gato",
     // foto: "https://images.unsplash.com/photo-1574158622682-e40e69881006?q=80&w=800&auto=format&fit=crop",
-    foto: "assets/figures/cats/simba.jpg",
+    foto: fotoSimba,
     idade: "1 ano",
     porte: "Médio",
     sexo: "Macho",
@@ -166,7 +178,7 @@ const animalsAdocao = [
     nome: "Pudim",
     especie: "cachorro",
     // foto: "https://images.unsplash.com/photo-1530281700549-e82e7bf110d6?q=80&w=800&auto=format&fit=crop",
-    foto: "assets/figures/dogs/pudim.jpg",
+    foto: fotoPudim,
     idade: "4 anos",
     porte: "Grande",
     sexo: "Macho",
@@ -180,7 +192,7 @@ const animalsAdocao = [
     nome: "Mimi",
     especie: "gato",
     // foto: "https://images.unsplash.com/photo-1529778873920-4da4926a7071?q=80&w=800&auto=format&fit=crop",
-    foto: "assets/figures/cats/mimi.jpg",
+    foto: fotoMimi,
     idade: "3 anos",
     porte: "Pequeno",
     sexo: "Fêmea",
